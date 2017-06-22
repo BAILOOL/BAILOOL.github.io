@@ -48,7 +48,7 @@ Links to my profile at different sites:
 
 *IEEE Winter Conference on Applications of Computer Vision (WACV), Mar 2017.*
 
-[Paper](https://www.researchgate.net/publication/312286941_Robust_Road_Marking_Detection_and_Recognition_Using_Density-Based_Grouping_and_Machine_Learning_Techniques)
+[[Paper]](https://www.researchgate.net/publication/312286941_Robust_Road_Marking_Detection_and_Recognition_Using_Density-Based_Grouping_and_Machine_Learning_Techniques)
 
 ----
 
@@ -58,14 +58,23 @@ Links to my profile at different sites:
 ----
 <img src="/images/IPIU16_Teaser.png" width="350" height = "200">  <img src="/images/IPIU16_Method.png" width="350" height = "200"> 
 
-**Area-Based Decision Driven Best-Buddies Similarity Method for Robust Template Matching**
+**Area-based decision driven best-buddies similarity method for robust template matching**
 
 **Oleksandr Bailo**, Jinsoo Choi and In So Kweon
 
 *Image Processing and Image Understanding (IPIU), Feb 2016.*
 
-[Paper](https://drive.google.com/open?id=0B7gHxBEfGEWcZ0pIUk14QVpIRmc)
+[[Paper]](https://drive.google.com/open?id=0B7gHxBEfGEWcZ0pIUk14QVpIRmc)
 
 ----
 
 ## Master Thesis
+
+<img src="/images/MasterThesis_Teaser.png" width="700" height = "200">
+
+**Enhancing Simultaneous Localization and Mapping with low- and high- level features**
+
+**Oleksandr Bailo**, KAIST, Electrical Engineering, Jun 2017.
+
+[[Slides]](https://1drv.ms/b/s!AiL1Yzy0p5YhgwtFdtFBY-MCNKsN)
+[[Presentation]](https://1drv.ms/p/s!AiL1Yzy0p5Yhgw2g4_KDmI5jvsdj)

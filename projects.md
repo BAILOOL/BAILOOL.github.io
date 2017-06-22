@@ -42,7 +42,7 @@ alt="" width="640" height="480" border="10" /></a>
 
 This software solves the problem of getting blinded or distracted from giving a presentation by the light that is projected on a presenter's eyes from a projector. This software blacks out the region where presenter's face is located. When face region is blacked out, it has been proven that presenters do not feel any discomfort and do not get distracted. Software continuously finds face's location, thus, presenter's face is always blacked out.
 
-[Github Page](https://github.com/BAILOOL/Real-Time-Face-Tracking-Projector)
+[[Project Page]](https://github.com/BAILOOL/Real-Time-Face-Tracking-Projector)
 
 ----
 **Image Transfer Through LEDs**
@@ -51,7 +51,7 @@ This software solves the problem of getting blinded or distracted from giving a 
 
 In this Project we took the opportunity to develop a reliable method for navigation inside buildings (usually big saturated buildings like libraries) where it’s often hard to reference oneself inside the building and where technologies like GPS fail to do so as well. As a medium, we use LEDs to send data, while on the other side, a web camera is used to record the sent data in real time and reproduce the original data at the receiver side.
 
-[Github Page](https://github.com/BAILOOL/Image-Transfer-Through-LEDs)
+[[Project Page]](https://github.com/BAILOOL/Image-Transfer-Through-LEDs)
 
 
 ----
@@ -63,6 +63,6 @@ In this Project we took the opportunity to develop a reliable method for navigat
 
 This project aims to develop an Automatized Wall Painting Drone that is able to draw pre-decided images on a wall on an automatized basis without human interaction apart from the picture input. Apart from saving human lives the proposed drone is expected to have higher efficiency, cheaper cost and safer to the surroundings compared to the original way of conducting painting jobs on tall buildings.
 
-[Project Page](https://github.com/BAILOOL/Automatized-Wall-Painting-Drone)
+[[Project Page]](https://github.com/BAILOOL/Automatized-Wall-Painting-Drone)
 
 ----
