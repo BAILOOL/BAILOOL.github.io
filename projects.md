@@ -5,8 +5,6 @@ permalink: /projects/
 
 ## Lab Projects
 
-----
-
 **Look Ahead by Shared Sensing for Cooperative Cars**
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=RYzgyOgVzM4
@@ -16,6 +14,7 @@ alt="" width="640" height="480" border="10" /></a>
 We propose a novel collaborative cars method which allows a driver to literally see through the front vehicle to assist in overtaking maneuvers. In the studied scenario, both cars are equipped with cameras (stereo and monocular cameras for the front and the rear cars, respectively) and share data through an appropriated wireless communication system. Our method generates a seamless transparency effect from the rear car viewpoint using trifocal tensor image synthesis where the poses of the cameras are estimated using a marker-based pose estimation.
 
 Responsibilities:
+
 * Developing highly optimized multi-threaded modules of co-SLAM
 * Implementing algorithm to homogenously distribute points all over the image.
 
@@ -24,16 +23,27 @@ Responsibilities:
 
 **Intelligent Assistant for People With Low Vision Abilities**
 
+<img src="/images/PSIVT_Outer_Flow.png" width="325" height = "175"> <img src="/images/PSIVT_Inner_Flow.png" width="325" height = "175">
+
 Responsibilities:
+
 * Supervising two undergraduate students to implement mobile solution equipped with CV and ML algorithms.
 * Researching and implementation of depth question answering.
 
+----
+
+**Machine learning-based autonomous vehicle vision system**
+
+<img src="https://raw.githubusercontent.com/SeokjuLee/VPGNet/master/teaser.png">
+
+Responsibilities:
+
+* Lanes, traffic signs, and road markings detection using Convolutional Neural Network.
 
 ----
 
 ## Undergraduate Projects
 
-----
 **Real Time Face Tracking Projector**
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=E6OrqVuwC3o
