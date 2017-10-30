@@ -3,6 +3,8 @@ layout: page
 permalink: /projects/
 ---
 
+## Lab Projects
+
 **Look Ahead by Shared Sensing for Cooperative Cars**
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=RYzgyOgVzM4

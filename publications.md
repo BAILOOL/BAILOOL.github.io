@@ -3,6 +3,8 @@ layout: page
 permalink: /publications/
 ---
 
+# Publications
+
 ## International Journals
 
 <img src="/images/PRL_Flow.png" width="500" height = "150">  <img src="/images/PRL_Result.png" width="200" height = "150"> 
