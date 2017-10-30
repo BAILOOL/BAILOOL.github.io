@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications/
 ---
-# Publications
 
 ## International Journals
 
