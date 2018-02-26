@@ -13,7 +13,7 @@ permalink: /publications/
 
 **O. Bailo**, F. Rameau, K. Joo, J. Park, O. Bogdan, I. Kweon
 
-*Pattern Recognition Letters (PRL), May 2017. (submitted)*
+*Pattern Recognition Letters (PRL), Feb 2018.*
 
 
 ----
