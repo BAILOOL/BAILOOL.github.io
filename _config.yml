@@ -29,13 +29,13 @@ owner:
 # For external links add external: true
 links:
   - title: About
-    url: /index/
+    url: /about/
   - title: Publications
     url: /publications/
   - title: Projects
     url: /projects/
   - title: Resume
-    url: /Current_Resume.pdf/
+    url: /resume.pdf/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #timezone:    Europe/Zurich
