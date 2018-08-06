@@ -8,3 +8,10 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+
+dist/
+*.swp
+/tarballs/
+.cabal-sandbox/
+cabal.sandbox.config
+.stack-work/

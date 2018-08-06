@@ -1,0 +1,272 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	border: 1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+<script type="text/javascript">
+    <!--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+-->
+    </script>
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+
+
+<h4 style="margin-bottom:0px;padding-top:20px;">International Journals</h4>
+
+    <ul class="biblist">
+	    
+<li ><p>
+<b>Efficient adaptive non-maximal suppression algorithms for homogeneous spatial keypoint distribution</b>
+<br><b>O. Bailo</b>, F. Rameau, K. Joo, J. Park, O. Bogdan, I. Kweon<br>	
+<i>Pattern Recognition Letters (PRL),</i>
+<i>Feb 2018</i>
+<br />
+<a href="javascript:toggleBibtex('bailo2018efficient')">[BibTeX]</a>
+<a href="https://www.researchgate.net/profile/Francois_Rameau/publication/323388062_Efficient_adaptive_non-maximal_suppression_algorithms_for_homogeneous_spatial_keypoint_distribution/links/5a9272be45851535bcd808b8/Efficient-adaptive-non-maximal-suppression-algorithms-for-homogeneous-spatial-keypoint-distribution.pdf" target="_blank">[PDF]</a>
+<a href="https://github.com/BAILOOL/ANMS-Codes">[Code]</a>
+</p>
+<div id="bib_bailo2018efficient" class="bibtex noshow">
+<pre>
+@article{bailo2018efficient,
+  title={Efficient adaptive non-maximal suppression algorithms for homogeneous spatial keypoint distribution},
+  author={Bailo, Oleksandr and Rameau, Francois and Joo, Kyungdon and Park, Jinsun and Bogdan, Oleksandr and Kweon, In So},
+  journal={Pattern Recognition Letters},
+  volume={106},
+  pages={53--60},
+  year={2018},
+  publisher={Elsevier}
+}
+</pre>
+</div>
+</li>
+</ul>
+
+<h4 style="margin-bottom:0px;padding-top:20px;">International Conferences</h4>
+
+    <ul class="biblist">
+	    
+<li ><p>
+<b>Intelligent Assistant for People with Low Vision Abilities</b>
+<br>O. Bogdan*, O. Yurchenko*, <b>O. Bailo*</b>, F. Rameau, D. Yoo, I. Kweon<br>	
+<i>The Pacific-Rim Symposium on Image and Video Technology (PSIVT),</i>
+<i>Nov 2017</i>
+<br />
+<a href="javascript:toggleBibtex('bogdan2017intelligent')">[BibTeX]</a>
+<a href="https://www.researchgate.net/profile/Oleksandr_Bailo/publication/319956300_Intelligent_Assistant_for_People_with_Low_Vision_Abilities/links/5a9357ff45851535bcd93c65/Intelligent-Assistant-for-People-with-Low-Vision-Abilities.pdf" target="_blank">[PDF]</a>
+<a href="https://github.com/BAILOOL/Assistant-for-People-with-Low-Vision" target="_blank">[Code]</a>
+</p>
+<div id="bib_bogdan2017intelligent" class="bibtex noshow">
+<pre>
+@inproceedings{bogdan2017intelligent,
+  title={Intelligent Assistant for People with Low Vision Abilities},
+  author={Bogdan, Oleksandr and Yurchenko, Oleg and Bailo, Oleksandr and Rameau, Francois and Yoo, Donggeun and Kweon, In So},
+  booktitle={Pacific-Rim Symposium on Image and Video Technology},
+  pages={448--462},
+  year={2017},
+  organization={Springer}
+}
+</pre>
+</div>
+</li>
+	    
+
+<li ><p>
+<b>VPGNet: Vanishing Point Guided Network for Lane and Road Marking Detection and Recognition</b>
+<br>S. Lee, J. Kim, J. Yoon, S. Shin, <b>O. Bailo</b>, N. Kim, T. Lee, H. Hong, S. Han, I. Kweon<br>	
+<i>IEEE International Conference on Computer Vision (ICCV),</i><i> Oct 2017</i>
+<br />
+<a href="javascript:toggleBibtex('lee2017vpgnet')">[BibTeX]</a>
+<a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_VPGNet_Vanishing_Point_ICCV_2017_paper.pdf" target="_blank">[PDF]</a>
+<a href="https://github.com/SeokjuLee/VPGNet" target="_blank">[Code]</a>
+</p>
+<div id="bib_lee2017vpgnet" class="bibtex noshow">
+<pre>
+@inproceedings{lee2017vpgnet,
+  title={VPGNet: Vanishing point guided network for lane and road marking detection and recognition},
+  author={Lee, Seokju and Kweon, In So and Kim, Junsik and Yoon, Jae Shin and Shin, Seunghak and Bailo, Oleksandr and Kim, Namil and Lee, Tae-Hee and Hong, Hyun Seok and Han, Seung-Hoon},
+  booktitle={2017 IEEE International Conference on Computer Vision (ICCV)},
+  pages={1965--1973},
+  year={2017},
+  organization={IEEE}
+}
+</pre>
+</div>
+</li>	    
+	    
+	    
+
+<li ><p>
+<b>Robust road marking detection and recognition using density-based grouping and machine learning techniques</b>
+<br><b>O. Bailo</b>, S. Lee, F. Rameau, J. Yoon, I. Kweon<br>	
+<i>IEEE Winter Conference on Applications of Computer Vision (WACV),</i><i> Mar 2017</i>
+<br />
+<a href="javascript:toggleBibtex('bailo2017robust')">[BibTeX]</a>
+<a href="https://www.researchgate.net/publication/312286941_Robust_Road_Marking_Detection_and_Recognition_Using_Density-Based_Grouping_and_Machine_Learning_Techniques" target="_blank">[PDF]</a>
+</p>
+<div id="bib_bailo2017robust" class="bibtex noshow">
+<pre>
+@inproceedings{bailo2017robust,
+  title={Robust road marking detection and recognition using density-based grouping and machine learning techniques},
+  author={Bailo, Oleksandr and Lee, Seokju and Rameau, Francois and Yoon, Jae Shin and Kweon, In So},
+  booktitle={Applications of Computer Vision (WACV), 2017 IEEE Winter Conference on},
+  pages={760--768},
+  year={2017},
+  organization={IEEE}
+}
+</pre>
+</div>
+</li>
+</ul>  
+
+
+<h4 style="margin-bottom:0px;padding-top:20px;">Other Publications</h4>
+
+    <ul class="biblist">
+	    
+<li ><p>
+<b>Light-weight place recognition and loop detection using road markings</b>
+<br><b>O. Bailo</b>, F. Rameau and I. Kweon<br>	
+<i>arXiv:1710.07434</i>
+<br />
+<a href="javascript:toggleBibtex('bailo2017light')">[BibTeX]</a>
+<a href="https://arxiv.org/pdf/1710.07434.pdf" target="_blank">[PDF]</a>
+</p>
+<div id="bib_bailo2017light" class="bibtex noshow">
+<pre>
+@article{bailo2017light,
+  title={Light-weight place recognition and loop detection using road markings},
+  author={Bailo, Oleksandr and Rameau, Francois and Kweon, In So},
+  journal={arXiv preprint arXiv:1710.07434},
+  year={2017}
+}
+</pre>
+</div>
+</li>
+
+<li ><p>
+<b>Area-based decision driven best-buddies similarity method for robust template matching</b>
+<br><b>O. Bailo</b>, J. Choi and I. Kweon<br>	
+<i>Image Processing and Image Understanding (IPIU),</i><i> Feb 2016</i>
+<br />
+</p>
+</div>
+</li>
+</ul>
+
+
+
+
+
+<h4 style="margin-bottom:0px;padding-top:20px;">Master Thesis</h4>
+    
+    <ul class="biblist">
+
+        <li ><p>
+            <b>Enhancing Simultaneous Localization and Mapping with low- and high- level features</b>
+	    <br> 
+	    <i> KAIST, Electrical Engineering, Jun 2017</i>
+            
+            <br />
+            <a href="javascript:toggleBibtex('bailo2017enhancing')">[BibTeX]</a>
+            
+            <a href="https://drive.google.com/open?id=1dq0no1mBa24XVorkK2DurZ7Z81c9wIdN"  target="_blank">[PDF]</a>
+            </p>
+            <div id="bib_bailo2017enhancing" class="bibtex noshow">
+<pre>@article{bailo2017enhancing,
+  title={Enhancing simultaneous localization and mapping with low-and high-level features= 저, 고수준 특징점을 이용한 동시적 위치추정 및 지도작성의 개선},
+  author={Bailo, Oleksandr},
+  year={2017},
+  publisher={한국과학기술원}
+}
+</pre>
+            </div>
+        </li>
+    </ul>
+    
+   
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>
