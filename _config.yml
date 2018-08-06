@@ -1,7 +1,8 @@
 title: Personal Web Page
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //bailool.github.io
+url:              http://bailool.github.io
+baseurl: ""
 
 # Owner/author information
 owner:
@@ -35,7 +36,7 @@ links:
   - title: Projects
     url: /projects/
   - title: Resume
-    url: /resume.pdf/
+    url: /pdf/O.Bailo-Resume.pdf/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #timezone:    Europe/Zurich
