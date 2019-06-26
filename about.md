@@ -9,9 +9,12 @@ I am a M.S. graduate of Robotics and Computer Vision (RCV) [laboratory](http://r
 
 <br><br>
 
-Research interests:
+Research interests (current):
 * Microscopy diagnosis of malaria: segmentation, classification
 * Complete Blood Count (CBC): object detection
+* Medical image synthesis with GANs
+
+Research interests (past):
 * Road markings and lane recognition
 * Cooperative SLAM
 
