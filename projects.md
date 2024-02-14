@@ -3,9 +3,23 @@ layout: home2
 permalink: /projects/
 title: Projects
 tags: [tools]
-modified: 6-3-2018
+modified: 14-02-2024
 comments: false
+
 ---
+<br>
+### Ongoing Open Source Projects
+
+----
+<p style="text-align: center;">
+<b>MC-Calib: calibration toolbox for multi-camera systems</b>
+<p style="text-align: center;">
+<a href="https://github.com/rameau-fr/MC-Calib"> https://github.com/rameau-fr/MC-Calib </a>
+</p>
+</p>
+
+----
+
 <br>
 ### Lab Projects
 ----
